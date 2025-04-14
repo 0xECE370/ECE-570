@@ -57,3 +57,7 @@ runMAE(patch_size=8, epoch_size=300, masking_ratios=[75, 80, 85])
 ```python
 runMAE(patch_size=2, epoch_size=10, masking_ratios=[50])
 ```
+
+## Demo Video
+
+https://drive.google.com/file/d/1bqOxSHacP82f7T5meKTeeZBjkZ7M1Uku/view?usp=drive_link
