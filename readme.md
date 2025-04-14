@@ -28,6 +28,17 @@ pip install -r requirements.txt
 
 ---
 
+## Hardware Requirements
+
+To train the MAE model efficiently, a machine with a **dedicated GPU** is strongly recommended.
+The code has been tested using the following configuration:
+
+- 1× AMD MI210s GPU
+- 4× CPU cores
+- 8 GB RAM
+
+While the code can technically run on CPU-only machines, training will be significantly slower and may not complete within reasonable time frames. For best results, use a system with CUDA-compatible NVIDIA or AMD GPUs.
+
 ## Running the Model
 
 Open `main.ipynb` and run the cells **or** modify the `runMAE` function as needed.
